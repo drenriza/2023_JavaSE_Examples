@@ -4,10 +4,12 @@ import dk.specialist.objects.Human3;
 
 public class Main {
 	public static void main(String[] args) {
-//		Example inheritance of three objects, inheriting  from each other.
-//		human3 inherit from human2.
-//		human2 inherit from human1
-//		human1 is the first human
+//		Example: Inheritance where a value of 'health' is inherited down two times from human1 to human3.
+
+//		human3 inherit from human2. (Allows to set a new health)
+//		human2 inherit from human1. (Allows to get the health)
+//		human1 is the first human.	(Sets the initial health)
+//			The protected value in human1, makes the value available package wide.
 		Human3 human3 = new Human3();
 		
 //		This is the default human health value of 100, defined in human1.
