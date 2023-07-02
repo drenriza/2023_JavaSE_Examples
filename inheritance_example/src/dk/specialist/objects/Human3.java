@@ -1,7 +1,6 @@
 package dk.specialist.objects;
 
 public class Human3 extends Human2 {
-	
 	public Human3() {
 		super();
 	}
